@@ -10,6 +10,17 @@ public class Dispositivo {
 	private float precio;
 	private int stock;
 	public Tienda tienda;
+
+	public Dispositivo(String marca, int memoriaRAM, int memoriaAlmacenamiento, String procesador, String modelo, int year, float precio, int stock){
+		this.marca = marca;
+		this.memoriaRAM = memoriaRAM;
+		this.memoriaAlmacenamiento = memoriaAlmacenamiento;
+		this.procesador = procesador;
+		this.modelo = modelo;
+		this.year = year;
+		this.precio = precio;
+		this.stock = stock;
+	}
 	public ArrayList<ComputadorEscritorio> computadorEscritorio = new ArrayList<ComputadorEscritorio>();
 	public ArrayList<Tablet> unnamed_Tablet_ = new ArrayList<Tablet>();
 	public ArrayList<Notebook> unnamed_Notebook_ = new ArrayList<Notebook>();

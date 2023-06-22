@@ -4,6 +4,13 @@ public class Notebook {
 	private String resolucionPantalla;
 	private String teclado;
 	private int bateria;
+
+	public Notebook(String resolucionPantalla, String teclado, int bateria){
+		this.resolucionPantalla = resolucionPantalla;
+		this.teclado = teclado;
+		this.bateria = bateria;
+	}
+
 	public ArrayList<Dispositivo> unnamed_Dispositivo_ = new ArrayList<Dispositivo>();
 
 	public String getResolucionPantalla() {
