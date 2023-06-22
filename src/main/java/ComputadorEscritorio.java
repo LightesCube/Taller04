@@ -15,8 +15,19 @@ public class ComputadorEscritorio {
 		this.pantalla = pantalla;
 	}
 
+	public ComputadorEscritorio(String tarjetaVideo, String fuentePoder, String chasis, Pantalla pantalla) {
+		this.tarjetaVideo = tarjetaVideo;
+		this.fuentePoder = fuentePoder;
+		this.chasis = chasis;
+		this.pantalla = pantalla;
+	}
+
 	public String getTarjetaVideo() {
 		return this.tarjetaVideo;
+	}
+
+	public void setTarjetaVideo(String tarjetaVideo) {
+		this.tarjetaVideo = tarjetaVideo;
 	}
 
 	public String getFuentePoder() {
@@ -27,6 +38,10 @@ public class ComputadorEscritorio {
 
 	public Pantalla getPantalla() {
 		return this.pantalla;
+	}
+
+	public void setPantalla(Pantalla pantalla) {
+		this.pantalla = pantalla;
 	}
 }
 
